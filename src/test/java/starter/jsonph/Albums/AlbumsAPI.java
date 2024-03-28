@@ -50,4 +50,15 @@ public class AlbumsAPI {
                 .contentType(ContentType.JSON)
                 .body(json);
     }
+    @Step("Delete albums with valid parameter id")
+    public void deleteAlbumsValidParameter(int id){
+        SerenityRest.given()
+                .pathParam("id", id);
+    }
+
+    @Step("Delete albums with invalid parameter id")
+    public void deleteAlbumsInvalidParameter(String id){
+        SerenityRest.given()
+                .pathParam("id", id);
+    }
 }

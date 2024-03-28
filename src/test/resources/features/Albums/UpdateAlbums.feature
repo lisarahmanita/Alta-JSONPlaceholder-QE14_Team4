@@ -8,8 +8,8 @@ Feature: Put Albums
     And Validate json schema "UpdateAlbumsJsonSchema.json"
     Examples:
       | id | json               | title                         |
-      | 1  | UpdateAlbums1.json | quidem molestiae enim         |
-      | 2  | UpdateAlbums2.json | quidem molestiae enim update1 |
+      | 1  | UpdateAlbums1.json | quidem molestiae enim update1 |
+      | 2  | UpdateAlbums2.json | quidem molestiae enim update2 |
 
   @Project
   Scenario Outline: Update albums with invalid id and valid json
