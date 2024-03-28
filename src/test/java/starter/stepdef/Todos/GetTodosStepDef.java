@@ -13,8 +13,9 @@ import starter.utils.Constants;
 
 
 import java.io.File;
-
 import static org.hamcrest.Matchers.equalTo;
+
+
 public class GetTodosStepDef {
 
     @Steps
@@ -23,7 +24,7 @@ public class GetTodosStepDef {
 
     @Given("User todos with valid paramtere {}")
     public void userTodosWithValidParamtere(int id) {
-        todosAPI.getUserTodos(id);
+        todosAPI.getUserTodosValid(id);
 
     }
 
@@ -39,12 +40,6 @@ public class GetTodosStepDef {
                 .body(TodosResponse.TITLE,equalTo(title));
     }
 
-
-    @And("Validate todos json schema {string}")
-    public void validateTodosJsonSchema(String json) {
-        File jsonFile = new File(Constants.JSON_SCHEMA_TODOS+json);
-        SerenityRest.and().body(JsonSchemaValidator.matchesJsonSchema(jsonFile));
-    }
 
     @Given("User totos with  invalid parameter {}")
     public void userTotosWithInvalidParameter(String id) {
