@@ -30,5 +30,5 @@ To run the project and execute the automated tests, follow these steps:
 ## Team Members:
 The project's team member responsible for QA and test automation is:
 * [**Jodi Riski Situmorang**](https://www.linkedin.com/in/jodi-riski-situmorang-b709b0199/)
-* [**Lazuardiansyah Ilman**]([https://www.linkedin.com/in/lisarahmanita](https://www.instagram.com/lazuardiansyah?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr))
+* [**Lazuardiansyah Ilman**](https://www.instagram.com/lazuardiansyah?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr)
 * [**Lisa Rahmanita**](https://www.linkedin.com/in/lisarahmanita)
